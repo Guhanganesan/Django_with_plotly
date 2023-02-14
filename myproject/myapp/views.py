@@ -4,3 +4,6 @@ from django.http import HttpResponse
 # Create your views here.
 def index(request):
     return HttpResponse("Home Page")
+
+def test_plotly_app(request):
+    return render(request, 'plotly_app.html')
