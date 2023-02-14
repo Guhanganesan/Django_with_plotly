@@ -7,3 +7,6 @@ def index(request):
 
 def test_plotly_app(request):
     return render(request, 'plotly_app.html')
+
+def dash_layout(request):
+    return render(request, 'dash_layout.html')

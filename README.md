@@ -66,3 +66,8 @@ def callback_size(dropdown_color, dropdown_size):
                                                   dropdown_color)
 
 Link: https://django-plotly-dash.readthedocs.io/en/latest/simple_use.html
+
+# Dash Layout 
+1. Install Pandas: pip install pandas
+
+Example link : https://dash.plotly.com/layout
