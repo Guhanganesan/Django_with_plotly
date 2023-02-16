@@ -10,3 +10,6 @@ def test_plotly_app(request):
 
 def dash_layout(request):
     return render(request, 'dash_layout.html')
+
+def web_layout(request):
+    return render(request, 'web_layout.html')

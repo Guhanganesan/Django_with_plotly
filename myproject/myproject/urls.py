@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from myapp import plotly_app, dash_layout
+from myapp import plotly_app, dash_layout, web_layout
 
-dash_apps = [plotly_app, dash_layout]
+dash_apps = [plotly_app, dash_layout, web_layout]
 
 urlpatterns = [
     path('admin/', admin.site.urls),
