@@ -13,3 +13,6 @@ def dash_layout(request):
 
 def web_layout(request):
     return render(request, 'web_layout.html')
+
+def responsive_layout(request):
+    return render(request, 'responsive_layout.html')
