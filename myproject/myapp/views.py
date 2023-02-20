@@ -16,3 +16,6 @@ def web_layout(request):
 
 def responsive_layout(request):
     return render(request, 'responsive_layout.html')
+
+def bootstrap_examples(request):
+    return render(request, 'bootstrap_examples.html')
