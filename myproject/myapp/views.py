@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Employee
+
 
 # Create your views here.
 def index(request):
@@ -19,3 +21,6 @@ def responsive_layout(request):
 
 def bootstrap_examples(request):
     return render(request, 'bootstrap_examples.html')
+
+def get_employee_details(request):
+    return render(request, 'emp_details.html')
